@@ -873,3 +873,8 @@ def problem50(): #TO JE VELIK PREPOČAS
                 longest = j-i
                 biggest = n
     return biggest
+
+def problem51():
+    print("problem51")
+
+print(problem51())
