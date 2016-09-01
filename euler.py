@@ -856,7 +856,7 @@ def problem49():
                     answer += str(b-(a-b)) + str(b) + str(a)
     return answer
 
-def problem50(): #TO JE VELIK PREPOČAS
+def problem50():
     longest = 0
     biggest = 0
     primes = [i for i in range(1, 1000001) if is_prime(i)]
@@ -873,6 +873,9 @@ def problem50(): #TO JE VELIK PREPOČAS
                 longest = j-i
                 biggest = n
     return biggest
+
+print(problem50())
+
 
 def problem51():
     print("problem51")
