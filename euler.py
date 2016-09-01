@@ -874,9 +874,6 @@ def problem50():
                 biggest = n
     return biggest
 
-print(problem50())
-
-
 def problem51():
     print("problem51")
 
