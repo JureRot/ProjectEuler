@@ -874,13 +874,7 @@ def problem50():
                 biggest = n
     return biggest
 
-def problem51(): #KAJ SPLOH KLE PROBAVAM???
-    nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9",]
-    n = 3
-    x = list(itertools.product([0, 1], repeat=n))[1:-1]
-    y = list(itertools.product(nums, repeat=n-1))[10:]
-    print(x)
-    for i in y:
-        print(int("".join(i)))
-    
+def problem51():
+    return "I have no idea"
+
 print(problem51())
