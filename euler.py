@@ -875,6 +875,6 @@ def problem50():
     return biggest
 
 def problem51():
-    return "I have no idea"
+    return "Ich habe keine Idee"
 
 print(problem51())
